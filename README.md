@@ -5,19 +5,21 @@
 ## Tasks Manager
 
 Displays active system time and a greeting based on the time.
-User can add tasks using the input box and clicking the add icon.
+User can add tasks using the input box and by clicking the add icon.
 Tasks will automatically get added under Upcoming section, after completing the task user can click on the completed checkbox which will move the task to Completed section.
 User can also delete tasks using the delete icon.
 
 ## Inventory
 
-User can search through the inventory with any column value (not case sensitve), select number of items to display and navigate through pages.
+User can search through the inventory with any column value (not case sensitve).
+Select number of items to display.
+Navigate through pages.
 
-## Recommondation strip
+## Recommendation strip
 
 Displays 6 random car details which are available in inventory.
-Recommondations refresh every 1 minute with new car details.
-I chose to randomise the recommondations as I want them to be independent of homogeneous data.
+Recommendations refresh every 1 minute with new car details.
+I chose to randomise the recommendations as I want them to be independent of homogeneous data.
 
 
 
