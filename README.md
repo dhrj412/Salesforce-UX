@@ -17,7 +17,7 @@ Navigate through pages.
 
 ## Recommendation strip
 
-Displays 6 random car details which are available in inventory.
+Displays 6 random car details which are marked available in inventory.
 Recommendations refresh every 1 minute with new car details.
 I chose to randomise the recommendations as I want them to be independent of homogeneous data.
 
