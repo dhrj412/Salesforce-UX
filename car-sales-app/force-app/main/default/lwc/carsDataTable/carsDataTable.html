@@ -1,0 +1,19 @@
+<template>
+    <lightning-card>
+        <div class="title">Inventory</div>
+        <template if:true={showTable}>
+            <c-paginator records={opps} 
+                         total-records={opps.length} 
+                         show-search-box="true" 
+                         onpaginatorchange={handlePaginatorChange}>
+            </c-paginator>
+            <lightning-datatable data={recordsToDisplay} 
+                                 columns={columns}
+                                 key-field="id"
+                                 hide-checkbox-column
+                                 show-row-number-column
+                                 row-number-offset={rowNumberOffset}>
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

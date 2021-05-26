@@ -1,0 +1,19 @@
+<template>
+    <lightning-layout class="container">
+        <lightning-layout-item size="12">
+            <div class="title">Recommendations</div>
+        </lightning-layout-item>
+        <lightning-layout>
+            <template for:each={recomms} for:item="data">
+                    <lightning-layout-item key={data.id} padding="around-small">
+                        <div class="slds-card card">
+                            <div class="car-title">{data.car}</div>
+                            <div class="car-model">{data.car_model}</div>
+                            <div class="car-price">{data.price}</div>
+                            <div class="car-vin">VIN:{data.car_vin}</div>
+                        </div>
+                    </lightning-layout-item >
+            </template>
+        </lightning-layout>
+    </lightning-layout>
+</template>

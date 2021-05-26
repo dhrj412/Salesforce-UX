@@ -1,0 +1,39 @@
+.container {
+    background-color: white;
+    padding: 16px;
+    max-height: 480px;
+    display: block;
+    overflow:auto;
+}
+
+.card {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #dddbda;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.car-title {
+    font-size: .8rem;
+}
+
+.car-model {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 900;
+}
+
+.car-price {
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.car-vin {
+    word-wrap: break-word;
+}
