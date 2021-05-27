@@ -2,6 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/52851106/119690818-a68b7b80-be67-11eb-9acc-d88eac30ae2c.png)
 
+Built using Salesforce LWC.
+Deployed on my personal Trailhead Playground Org.
+
 ## Tasks Manager
 
 Displays active system time and a greeting based on the time.
